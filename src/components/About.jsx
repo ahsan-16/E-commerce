@@ -1,12 +1,12 @@
 import React from 'react'
-import NavBar from './NavBar'
+import Nav from './Nav'
 import Features from './features'
 import Footer from './footer'
 
 const About = () => {
   return (
     <>
-        <NavBar />
+        <Nav />
        <div>
           <div className='bg-gray-200 py-20 ' >
             <h1 className='text-3xl text-red-500 font-bold items-center text-center' >About Elegnat Packages</h1>

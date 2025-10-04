@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "motion/react"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import NavBar from './components/NavBar'
+import Nav from './components/Nav'
 import Banner from './components/mainSection'
 import RequestSection from './components/requestSection'
 import Feedback from './components/feedback'
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   path: "/",
   element: <>
     <Home />
-    <NavBar />
+    <Nav />
     <Banner />
     <RequestSection />
     <Feedback />

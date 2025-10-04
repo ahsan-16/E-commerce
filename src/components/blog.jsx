@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Nav from './Nav'
 import { Link } from 'react-router-dom'
 import Footer from './footer'
 
 const blog = () => {
   return (
     <>
-    <Navbar/>
+    <Nav/>
         
         <div>
              <div className='bg-gray-200 py-20 ' >

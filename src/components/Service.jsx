@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './NavBar'
+import Nav from './Nav'
 import Footer from './footer'
 import { Link } from 'react-router-dom'
 
 const Service = () => {
   return (
     <>
-     <Navbar/>
+     <Nav/>
       
 
       <div>

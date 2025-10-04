@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './NavBar'
+import Nav from './Nav'
 import Footer from './footer'
 
 const Products = () => {
   return (
     <>
-     <Navbar />
+     <Nav />
     
       
        <div className='bg-gray-200 py-20 ' >

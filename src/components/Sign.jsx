@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './NavBar'
+import Nav from './Nav'
 import { Link } from 'react-router-dom'
 
 const Sign = () => {
   return (
     <>
-    <Navbar/>
+    <Nav/>
     
       <div className='bg-gray-300 h-211 flex flex-col justify-center items-center' >
                   
